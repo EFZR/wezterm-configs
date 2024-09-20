@@ -8,6 +8,7 @@ Config = {
 		{
 			name = "WSL:Ubuntu",
 			distribution = "Ubuntu",
+			default_cwd = "/home/efzr/dev/",
 		},
 	},
 	default_domain = "WSL:Ubuntu",
