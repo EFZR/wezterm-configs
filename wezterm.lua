@@ -4,6 +4,13 @@ Config = wezterm.config_builder()
 
 Config = {
 	default_prog = { "pwsh.exe" },
+	wsl_domains = {
+		{
+			name = "WSL:Ubuntu",
+			distribution = "Ubuntu",
+		},
+	},
+	default_domain = "WSL:Ubuntu",
 	automatically_reload_config = true,
 	enable_tab_bar = false,
 	window_close_confirmation = "NeverPrompt",
