@@ -4,14 +4,14 @@ Config = wezterm.config_builder()
 
 Config = {
 	default_prog = { "pwsh.exe" },
-	wsl_domains = {
-		{
-			name = "WSL:Ubuntu",
-			distribution = "Ubuntu",
-			default_cwd = "/home/efzr/dev/",
-		},
-	},
-	default_domain = "WSL:Ubuntu",
+	--      wsl_domains = {
+	--        {
+	--          name = "WSL:Ubuntu",
+	--          distribution = "Ubuntu",
+	--          default_cwd = "/home/efzr/dev/",
+	--        },
+	--     },
+	--   default_domain = "WSL:Ubuntu",
 	automatically_reload_config = true,
 	enable_tab_bar = false,
 	window_close_confirmation = "NeverPrompt",
@@ -23,7 +23,7 @@ Config = {
 	background = {
 		{
 			source = {
-				File = "/Users/user/Pictures/WP/WP62.jpg",
+				File = "/Users/user/Documents/Wezterm/wallpapers/WP63.jpg",
 			},
 			hsb = {
 				hue = 1.0,
