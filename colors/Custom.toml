@@ -8,6 +8,7 @@ cursor_border = "#a3b8ef"
 split = "#3b4b58"
 selection_fg = "#2a2e38"
 selection_bg = "#979eab"
+
 ansi = [
     "#71798a",
     "#d19a66",

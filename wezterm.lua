@@ -5,19 +5,20 @@ local wezterm = require("wezterm")
 return {
 	default_prog = { "pwsh.exe" },
 	default_cursor_style = "BlinkingBar",
-	color_scheme_dirs = { 'C:/Users/efzrbhc/.config/wezterm/colors' },
+	color_scheme_dirs = { "C:/Users/efzrbhc/.config/wezterm/colors" },
 
 	-- color_scheme = "tokyonight-storm",
 	-- color_scheme = "Gruvbox Dark (Gogh)",
 	-- color_scheme = "hardhacker",
-	color_scheme = "Custom",
+	-- color_scheme = "Custom",
+	color_scheme = "Panda (Gogh)",
 
 	font = wezterm.font({
 		family = "JetBrains Mono",
 		-- family = "Monaspace Neon",
 		-- weight = "Regular",
 		-- weight = "Regular",
-	} , { weight = "Bold" }),
+	}, { weight = "Bold" }),
 	font_size = 9,
 	window_background_opacity = 0.98,
 	window_padding = {
