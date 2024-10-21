@@ -7,7 +7,7 @@ cursor_fg = "#282828"
 cursor_border = "#ebdbb2"
 selection_bg = "#a9b1d6"
 selection_fg = "#c0caf5"
-nansi = [
+ansi = [
     "#282828",
     "#cc241d",
     "#98971a",

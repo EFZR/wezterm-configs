@@ -11,7 +11,7 @@ return {
 	-- color_scheme = "Gruvbox Dark (Gogh)",
 	-- color_scheme = "hardhacker",
 	-- color_scheme = "Custom",
-	color_scheme = "Panda (Gogh)",
+	color_scheme = "Oceanic Next (Gogh)",
 
 	font = wezterm.font({
 		family = "JetBrains Mono",
