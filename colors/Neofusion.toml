@@ -1,0 +1,34 @@
+[colors]
+foreground = "#e0d9c7"
+background = "#070f1c"
+cursor_bg = "#e0d9c7"
+cursor_border = "#e0d9c7"
+cursor_fg = "#070f1c"
+selection_bg = "#ea6847"
+selection_fg = "#e0d9c7"
+ansi = [
+    "#070f1c",
+    "#ea6847",
+    "#ea6847",
+    "#5db2f8",
+    "#2f516c",
+    "#d943a8",
+    "#86dbf5",
+    "#e0d9c7",
+]
+
+brights = [
+    "#2f516c",
+    "#d943a8",
+    "#ea6847",
+    "#86dbf5",
+    "#5db2f8",
+    "#d943a8",
+    "#ea6847",
+    "#e0d9c7",
+]
+
+[colors.indexed]
+
+[metadata]
+name = "Neofusion"

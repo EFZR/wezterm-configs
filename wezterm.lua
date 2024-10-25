@@ -12,7 +12,7 @@ return {
 	-- color_scheme = "hardhacker",
 	-- color_scheme = "Custom",
 	-- color_scheme = "Oceanic Next (Gogh)",
-	color_scheme = "Panda (Gogh)",
+	color_scheme = "Neofusion",
 
 	font = wezterm.font({
 		family = "JetBrains Mono",
