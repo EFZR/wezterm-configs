@@ -17,11 +17,11 @@ return {
 	color_scheme_dirs = { "C:/Users/efzrbhc/.config/wezterm/colors" },
 
 	-- color_scheme = "tokyonight-storm",
-	-- color_scheme = "Gruvbox Dark (Gogh)",
+	color_scheme = "Gruvbox Dark (Gogh)",
 	-- color_scheme = "hardhacker",
 	-- color_scheme = "Custom",
 	-- color_scheme = "Oceanic Next (Gogh)",
-	color_scheme = "Neofusion",
+	-- color_scheme = "Neofusion",
 
 	font = wezterm.font({
 		family = "JetBrains Mono",
