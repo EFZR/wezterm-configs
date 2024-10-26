@@ -4,6 +4,15 @@ local wezterm = require("wezterm")
 -- DevOS is name WSL distro
 return {
 	default_prog = { "pwsh.exe" },
+
+	wsl_domains = {
+		{
+			name = "WSL:NixOS",
+			distribution = "NixOS"
+		}
+	},
+	default_domain = 'WSL:NixOS',
+
 	default_cursor_style = "BlinkingBar",
 	color_scheme_dirs = { "C:/Users/efzrbhc/.config/wezterm/colors" },
 
