@@ -8,10 +8,10 @@ return {
 	wsl_domains = {
 		{
 			name = "WSL:NixOS",
-			distribution = "NixOS"
-		}
+			distribution = "NixOS",
+		},
 	},
-	default_domain = 'WSL:NixOS',
+	default_domain = "WSL:NixOS",
 
 	default_cursor_style = "BlinkingBar",
 	color_scheme_dirs = { "C:/Users/efzrbhc/.config/wezterm/colors" },
