@@ -24,9 +24,7 @@ return {
 	-- color_scheme = "Neofusion",
 	-- color_scheme = "Vs Code Dark+ (Gogh)",
 
-	font = wezterm.font({
-		family = "JetBrains Mono",
-	}, { weight = "ExtraBlack" }),
+	font = wezterm.font({ family = "JetBrains Mono" }, { weight = "DemiBold" }),
 	font_size = 9,
 	window_background_opacity = 0.98,
 	window_padding = {
