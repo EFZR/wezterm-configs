@@ -18,10 +18,11 @@ return {
 
 	-- color_scheme = "tokyonight-storm",
 	color_scheme = "Gruvbox Dark (Gogh)",
-	-- color_scheme = "hardhacker",
 	-- color_scheme = "Custom",
 	-- color_scheme = "Oceanic Next (Gogh)",
 	-- color_scheme = "Neofusion",
+	-- color_scheme = "AlienBlood",
+	-- color_scheme = "Panda (Gogh)",
 	-- color_scheme = "Vs Code Dark+ (Gogh)",
 
 	font = wezterm.font({
