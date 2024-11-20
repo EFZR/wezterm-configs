@@ -25,7 +25,7 @@ return {
 	-- color_scheme = "Panda (Gogh)",
 	-- color_scheme = "Vs Code Dark+ (Gogh)",
 
-	font = wezterm.font({ family = "JetBrains Mono" }, { weight = "DemiBold" }),
+	font = wezterm.font({ family = "JetBrains Mono" }, { weight = "Regular" }),
 	font_size = 9,
 	window_background_opacity = 0.98,
 	window_padding = {
