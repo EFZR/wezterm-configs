@@ -1,9 +1,10 @@
 -- Location C:\Users\user\.config\wezterm\wezterm.lua
 local wezterm = require("wezterm")
 
--- DevOS is name WSL distro
 return {
 	default_prog = { "pwsh.exe" },
+	default_domain = "WSL:NixOS",
+	default_cursor_style = "BlinkingBar",
 
 	wsl_domains = {
 		{
@@ -12,11 +13,8 @@ return {
 			default_cwd = "~/",
 		},
 	},
-	default_domain = "WSL:NixOS",
 
-	default_cursor_style = "BlinkingBar",
 	color_scheme_dirs = { "C:/Users/efzrbhc/.config/wezterm/colors" },
-
 	-- color_scheme = "tokyonight-storm",
 	-- color_scheme = "Gruvbox Dark (Gogh)",
 	-- color_scheme = "Custom",
@@ -29,6 +27,7 @@ return {
 
 	font = wezterm.font({ family = "JetBrains Mono" }, { weight = "Regular" }),
 	font_size = 11,
+
 	window_background_opacity = 1,
 	window_padding = {
 		left = 0,
