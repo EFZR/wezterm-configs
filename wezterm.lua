@@ -26,7 +26,7 @@ return {
 	-- color_scheme = "X::DotShare (terminal.sexy)",
 
 	font = wezterm.font({ family = "JetBrains Mono" }, { weight = "Regular" }),
-	font_size = 11,
+	font_size = 9,
 
 	window_background_opacity = 1,
 	window_padding = {
